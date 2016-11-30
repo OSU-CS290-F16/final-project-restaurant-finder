@@ -1,1 +1,36 @@
+html{
+  background-color: green;
+}
+main{
+  background-color: rgb(255, 255, 200);
+  border-style: solid;
+  border-width: 10px;
+  position: relative;
+}
+section .name{
+  text-align: center;
+}
+section .location{
+  text-align: center;
+}
+section .picture{
+  
+}
+section .likeButton{
+  position: absolute;
+  bottom = 5px;
+  right = 5px;
+}
+section .dislikeButton{
+  position: absolute;
+  bottom = 5px;
+  left = 5px;
+}
 
+.imgbox {
+  background-color:white;
+  border-radius:25px;
+  height:200px;
+  position:relative;
+  width:300px;
+}
