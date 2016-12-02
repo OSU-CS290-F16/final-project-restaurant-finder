@@ -1,12 +1,21 @@
 html{
-  background-color: green;
+  background: url("Images/Background1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
 }
 main{
-  background-color: rgb(255, 255, 200);
-  border-style: solid;
+	background-color: rgba(255,255,255,0.5);
+	background-size: 40%;
   border-width: 10px;
-  position: relative;
+  position: center;
+  margin-left: 20%;
+  margin-right: 20%;
 }
+
 section .name{
   text-align: center;
 }
@@ -33,4 +42,18 @@ section .dislikeButton{
   height:200px;
   position:relative;
   width:300px;
+}
+
+.rotate-left {
+	transform: rotate(30deg) scale(0.8);
+	transition: 1s;
+	cursor: e-resize;
+	opacity: 0;
+}
+
+.rotate-right {
+	transform: rotate(-30deg) scale(0.8);
+	transition: 1s;
+	cursor: w-resize;
+	opacity: 0;
 }
