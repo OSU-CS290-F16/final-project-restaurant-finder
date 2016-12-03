@@ -5,13 +5,15 @@ var likedFoods = [];
 var counter = 0;
 
 function iLike() {
-	 foods[counter] = likedFoods[likedFoods.length];
-	 counter ++;
-	 //display foods[counter]
+	foods[counter] = likedFoods[likedFoods.length];
+	var img = document.createElement("img");
+	img.src = foods[counter];
+	var div = document.getElementById('img');
+	div.appendChild(img);
+	counter ++;
 }
 function iNope() {
 	counter++;
-	//display foods[counter]
 }
 function showFoods() {
 	for(i=0; i<likedFoods.length; i++) {
