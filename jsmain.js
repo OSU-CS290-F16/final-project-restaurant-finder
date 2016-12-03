@@ -17,7 +17,10 @@ function iNope() {
 }
 function showFoods() {
 	for(i=0; i<likedFoods.length; i++) {
-		//display foods[counter]
+		var img = document.createElement("img");
+		img.src = likedFoods[i];
+		var div = document.getElementById('img');
+		div.appendChild(img);
 	}
 }
 
