@@ -8,10 +8,10 @@ function iLike() {
 	console.log("ilike");
 	foods[counter] = likedFoods[likedFoods.length];
 	//TODO remove the previous image 
-	var img = document.createElement("img");
+	var imgage = document.createElement("img");
 	img.src = 'images/' + foods[counter];
-	var div = document.getElementById('img');
-	div.appendChild(img);
+	var div = document.getElementById('imageLocation');
+	div.appendChild(imgage);
 	counter ++;
 }
 function iNope() {
