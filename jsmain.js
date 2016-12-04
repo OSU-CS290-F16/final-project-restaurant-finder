@@ -37,7 +37,6 @@ function iNope() {
 } // Will show the food images to be liked or passed. 
 function showFoods() {
 	for(i=0; i<likedFoods.length; i++) {
-		var img = document.createElement("img");
 		img.src = likedFoods[i];
 		var div = document.getElementById('img');
 		div.appendChild(img);
