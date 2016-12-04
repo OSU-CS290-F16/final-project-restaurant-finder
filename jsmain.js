@@ -16,7 +16,7 @@ function iLike() {
 	div.appendChild(image);
 	
 	if(counter > 0){
-		var oldElem = document.getElementById("currentImage")
+		var oldElem = document.getElementById("currentImage");
 		delete oldElem;
 	}
 	
