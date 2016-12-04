@@ -7,7 +7,7 @@ var counter = 0;
 function iLike() {
 	foods[counter] = likedFoods[likedFoods.length];
 	var img = document.createElement("img");
-	img.src = foods[counter];
+	img.src = 'images/' + foods[counter];
 	var div = document.getElementById('img');
 	div.appendChild(img);
 	counter ++;
