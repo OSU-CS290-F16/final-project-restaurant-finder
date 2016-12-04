@@ -9,7 +9,7 @@ function iLike() {
 	//TODO remove the previous image
 	if(counter > 0){
 		var oldElem = document.getElementById("currentImage")
-		remove oldElem;
+		delete oldElem;
 	}
 	
 	var image = document.createElement("img");
