@@ -59,8 +59,11 @@ main{
   -moz-transition: all .15s linear;
   transition: all .15s linear;
   z-index:0;
+}
+
+.resizeimg{
   height: 600px;
-  width: 600px;
+  width: 600px;	
 }
 
 section .name{
