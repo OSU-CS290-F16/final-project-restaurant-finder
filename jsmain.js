@@ -9,9 +9,13 @@ function iLike() {
 	foods[counter] = likedFoods[likedFoods.length];
 	//TODO remove the previous image 
 	var image = document.createElement("img");
+	console.log('foods[counter] = 'foods[counter]);
 	image.src = 'images/' + foods[counter];
+	console.log('image.src ' + image.src);
+	
 	var div = document.getElementById('imageLocation');
 	div.appendChild(image);
+	likedFoods[likedFoods.length] = foods[counter]; 
 	counter ++;
 }
 function iNope() {
