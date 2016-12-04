@@ -9,7 +9,7 @@ function iLike() {
 	foods[counter] = likedFoods[likedFoods.length];
 	//TODO remove the previous image 
 	var image = document.createElement("img");
-	img.src = 'images/' + foods[counter];
+	image.src = 'images/' + foods[counter];
 	var div = document.getElementById('imageLocation');
 	div.appendChild(image);
 	counter ++;
