@@ -38,11 +38,11 @@ function iNope() {
 function showFoods() {
 	console.log("showFoods");
 	for(i=0; i<likedFoods.length-1; i++) {
-		image = document.createElement("img");
-		console.log("Image source = " + image.src);
-		image.src = "images/" + likedFoods[i];
+		var image2 = document.createElement("img");
+		console.log("Image source = " + image2.src);
+		image2.src = "images/" + likedFoods[i];
 		var div = document.getElementById('imageLocation');
-		div.appendChild(image);
+		div.appendChild(image2);
 		//TODO add descriptions for each picture 
 	} // end for 
 } // End showFoods function.
