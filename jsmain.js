@@ -46,6 +46,9 @@ function showFoods() {
 		image2.setAttribute("id", "doneImage");
 		var div = document.getElementById('imageLocation');
 		div.appendChild(image2);
+		var description = document.createElement('p');
+   		description.innerHTML = likedFoods[i].substring(0, likedFoods[i].length - 4);
+    		div.appendChild(description);
 		//TODO add descriptions for each picture 
 	} // end for 
 } // End showFoods function.
