@@ -7,7 +7,13 @@ var foods = new Array("BaguetteCurry.jpg", "BaguetteSandwich.jpg", "Block15Burge
 var likedFoods = [];
 
 // Food image counter.
-var counter = 0;
+var counter = 1;
+var image = document.createElement("img");
+image.src = 'images/' + foods[counter];
+image.setAttribute("id", "currentImage");
+var div = document.getElementById('imageLocation');
+div.appendChild(image);
+likedFoods[likedFoods.length] = foods[counter]; 
 
 // iLiked function will move images to likedFoods array and bring up new image. 
 function iLike() {
