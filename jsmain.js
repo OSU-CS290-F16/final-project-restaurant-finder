@@ -21,14 +21,15 @@ counter++;
 function iLike() {
 	console.log("ilike");
 	//TODO remove the previous image
-	var oldElem = document.getElementById("currentImage")
-	delete oldElem;
+	//var oldElem = document.getElementById("currentImage")
+	//delete oldElem;
 	
-	var image = document.createElement("img");
+	//var image = document.createElement("img");
+	var image = document.getElementById("currentImage");
 	image.src = 'images/' + foods[counter];
-	image.setAttribute("id", "currentImage");
-	var div = document.getElementById('imageLocation');
-	div.appendChild(image);
+	//image.setAttribute("id", "currentImage");
+	//var div = document.getElementById('imageLocation');
+	//div.appendChild(image);
 
 	likedFoods[likedFoods.length] = foods[counter]; 
 	counter ++;
