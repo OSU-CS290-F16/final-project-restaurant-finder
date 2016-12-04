@@ -59,8 +59,6 @@ main{
   -moz-transition: all .15s linear;
   transition: all .15s linear;
   z-index:0;
-  max-height: 300px;
-  max-width: 300px;
 }
 
 
