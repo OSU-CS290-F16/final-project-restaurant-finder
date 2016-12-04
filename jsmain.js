@@ -15,6 +15,7 @@ image.setAttribute("id", "currentImage");
 var div = document.getElementById('imageLocation');
 div.appendChild(image);
 likedFoods[likedFoods.length] = foods[counter];
+counter++;
 
 // iLiked function will move images to likedFoods array and bring up new image. 
 function iLike() {
