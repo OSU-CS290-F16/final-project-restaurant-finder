@@ -65,6 +65,10 @@ main{
 	max-height: 600px;
 	max-width: 600px;
 }
+#doneImage{
+	height: 300px;
+	width: 300px;
+}
 
 section .name{
   text-align: center;
