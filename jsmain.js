@@ -38,6 +38,7 @@ function iNope() {
 function showFoods() {
 	for(i=0; i<likedFoods.length-1; i++) {
 		image.src = "images/" + likedFoods[i];
+		console.log("Image source = "image.src);
 		var div = document.getElementById('imageLocation');
 		div.appendChild(image);
 		//TODO add descriptions for each picture 
