@@ -59,6 +59,7 @@ main{
   -moz-transition: all .15s linear;
   transition: all .15s linear;
   z-index:0;
+  position: relative;
 }
 
 #currentImage{
@@ -68,6 +69,8 @@ main{
 #doneImage{
 	height: 300px;
 	width: 300px;
+	position: absolute;
+	left: 10px;
 }
 
 section .name{
