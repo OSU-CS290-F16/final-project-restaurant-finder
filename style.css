@@ -1,12 +1,75 @@
 html{
-  background-color: green;
+  background: url("http://cravedujour.com/wp-content/uploads/2015/05/Food-Background.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+} 
+
+body{
+
 }
-main{
-  background-color: rgb(255, 255, 200);
-  border-style: solid;
+
+
+header {
+	background-color: rgba(255,255,255,0.6);
+	background-size: 40%;
   border-width: 10px;
-  position: relative;
+  position: center;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
 }
+
+footer{
+  background-color: rgba(255,255,255,0.6);
+  border-width: 10px;
+  position: bottom;
+  text-align: right;
+  margin-left: 20%;
+  margin-right: 20%;
+  position: fixed;
+  bottom: 10px;
+}
+
+footer li{
+  display: inline-block;
+}
+
+
+main{
+  border-width: 10px;
+  position: center;
+  text-align: center;
+}
+
+.polaroid
+{
+  background: white;
+  display: inline-block;
+  float: center;
+  margin: 0 15px 30px;
+  padding: 10px 10px 60px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+  box-shadow: 0 4px 6px rgba(0,0,0,.3);
+  -webkit-transition: all .15s linear;
+  -moz-transition: all .15s linear;
+  transition: all .15s linear;
+  z-index:0;
+}
+
+#currentImage{
+	max-height: 600px;
+	max-width: 600px;
+}
+#doneImage{
+	height: 300px;
+	width: 300px;
+}
+
 section .name{
   text-align: center;
 }
@@ -16,15 +79,21 @@ section .location{
 section .picture{
   
 }
+
 section .likeButton{
-  position: absolute;
+  position: center;
   bottom = 5px;
   right = 5px;
 }
 section .dislikeButton{
-  position: absolute;
+  position: center;
   bottom = 5px;
   left = 5px;
+}
+
+.buttonsize{
+  height: 30px;
+  width: 30px;
 }
 
 .imgbox {
@@ -33,4 +102,18 @@ section .dislikeButton{
   height:200px;
   position:relative;
   width:300px;
+}
+
+.rotate-left {
+	transform: rotate(30deg) scale(0.8);
+	transition: 1s;
+	cursor: e-resize;
+	opacity: 0;
+}
+
+.rotate-right {
+	transform: rotate(-30deg) scale(0.8);
+	transition: 1s;
+	cursor: w-resize;
+	opacity: 0;
 }
