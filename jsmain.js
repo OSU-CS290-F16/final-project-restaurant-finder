@@ -41,6 +41,7 @@ function showFoods() {
 		var image2 = document.createElement("img");
 		console.log("Image source = " + image2.src);
 		image2.src = "images/" + likedFoods[i];
+		image2.setAttribute("id", "doneImage");
 		var div = document.getElementById('imageLocation');
 		div.appendChild(image2);
 		//TODO add descriptions for each picture 
