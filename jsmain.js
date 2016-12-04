@@ -6,6 +6,7 @@ var counter = 0;
 
 function iLike() {
 	foods[counter] = likedFoods[likedFoods.length];
+	//TODO remove the previous image 
 	var img = document.createElement("img");
 	img.src = 'images/' + foods[counter];
 	var div = document.getElementById('img');
@@ -21,6 +22,7 @@ function showFoods() {
 		img.src = likedFoods[i];
 		var div = document.getElementById('img');
 		div.appendChild(img);
+		//TODO add descriptions for each picture 
 	}
 }
 
