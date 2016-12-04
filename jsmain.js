@@ -6,10 +6,9 @@ var counter = 0;
 
 function iLike() {
 	console.log("ilike");
-	foods[counter] = likedFoods[likedFoods.length];
 	//TODO remove the previous image 
 	var image = document.createElement("img");
-	console.log('foods[counter] = 'foods[counter]);
+	console.log('foods[counter] = ' + foods[counter]);
 	image.src = 'images/' + foods[counter];
 	console.log('image.src ' + image.src);
 	
