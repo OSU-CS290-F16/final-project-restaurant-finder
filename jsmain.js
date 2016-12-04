@@ -6,12 +6,18 @@ var counter = 0;
 
 function iLike() {
 	console.log("ilike");
-	//TODO remove the previous image 
+	//TODO remove the previous image
+	if(counter > 0){
+		var oldElem = document.getElementById("currentImage")
+		remove oldElem;
+	}
+	
 	var image = document.createElement("img");
 	image.src = 'images/' + foods[counter];
 	image.setAttribute("id", "currentImage");
 	var div = document.getElementById('imageLocation');
 	div.appendChild(image);
+	
 	likedFoods[likedFoods.length] = foods[counter]; 
 	counter ++;
 }
