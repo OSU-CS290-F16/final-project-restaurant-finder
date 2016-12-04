@@ -5,6 +5,7 @@ var likedFoods = [];
 var counter = 0;
 
 function iLike() {
+	console.log("ilike");
 	foods[counter] = likedFoods[likedFoods.length];
 	//TODO remove the previous image 
 	var img = document.createElement("img");
@@ -14,6 +15,7 @@ function iLike() {
 	counter ++;
 }
 function iNope() {
+	console.log("iNope");
 	counter++;
 }
 function showFoods() {
