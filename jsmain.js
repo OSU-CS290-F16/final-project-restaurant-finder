@@ -7,29 +7,28 @@ var foods = new Array("BaguetteCurry.jpg", "BaguetteSandwich.jpg", "Block15Burge
 var likedFoods = [];
 
 // Food image counter.
-var counter = 1;
+var counter = 0;
 var image = document.createElement("img");
 image.src = 'images/' + foods[counter];
 image.setAttribute("id", "currentImage");
 var div = document.getElementById('imageLocation');
 div.appendChild(image);
-likedFoods[likedFoods.length] = foods[counter]; 
+likedFoods[likedFoods.length] = foods[counter];
+counter++;
 
 // iLiked function will move images to likedFoods array and bring up new image. 
 function iLike() {
 	console.log("ilike");
 	//TODO remove the previous image
+	var oldElem = document.getElementById("currentImage")
+	delete oldElem;
+	
 	var image = document.createElement("img");
 	image.src = 'images/' + foods[counter];
 	image.setAttribute("id", "currentImage");
 	var div = document.getElementById('imageLocation');
 	div.appendChild(image);
-	
-	if(counter > 0){
-		var oldElem = document.getElementById("currentImage")
-		delete oldElem;
-	}
-	
+
 	likedFoods[likedFoods.length] = foods[counter]; 
 	counter ++;
 }
