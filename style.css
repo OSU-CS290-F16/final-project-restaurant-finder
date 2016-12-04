@@ -61,6 +61,10 @@ main{
   z-index:0;
 }
 
+#currentImage{
+	height: 300px;
+	width: 300px;
+}
 
 section .name{
   text-align: center;
