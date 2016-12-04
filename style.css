@@ -62,8 +62,8 @@ main{
 }
 
 .resizeimg{
-  height: 600px;
-  width: 600px;	
+  max-height: 300px;
+  max-width: 300px;	
 }
 
 section .name{
