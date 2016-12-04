@@ -19,17 +19,9 @@ counter++;
 
 // iLiked function will move images to likedFoods array and bring up new image. 
 function iLike() {
-	console.log("ilike");
-	//TODO remove the previous image
-	//var oldElem = document.getElementById("currentImage")
-	//delete oldElem;
-	
-	//var image = document.createElement("img");
+	console.log("ilike");	
 	var image = document.getElementById("currentImage");
 	image.src = 'images/' + foods[counter];
-	//image.setAttribute("id", "currentImage");
-	//var div = document.getElementById('imageLocation');
-	//div.appendChild(image);
 
 	likedFoods[likedFoods.length] = foods[counter]; 
 	counter ++;
@@ -38,6 +30,8 @@ function iLike() {
 // iNope will remove image and bring up new image.
 function iNope() {
 	console.log("iNope");
+	var image = document.getElementById("currentImage");
+	image.src = 'images/' + foods[counter];
 	counter++;
 
 } // Will show the food images to be liked or passed. 
