@@ -15,7 +15,7 @@ function iLike() {
 	
 	var div = document.getElementById('imageLocation');
 	div.appendChild(image);
-	likedFoods[likedFoods.length] = foods[counter]; 
+	//likedFoods[likedFoods.length] = foods[counter]; 
 	counter ++;
 }
 function iNope() {
