@@ -8,6 +8,7 @@ var likedFoods = [];
 
 // Food image counter.
 var counter = 0;
+
 var image = document.createElement("img");
 image.src = 'images/' + foods[counter];
 image.setAttribute("id", "currentImage");
