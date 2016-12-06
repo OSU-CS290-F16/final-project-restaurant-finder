@@ -8,15 +8,13 @@ var likedFoods = [];
 
 // Food image counter.
 var counter = 0;
-var	counter2 = 0;
 
 var image = document.createElement("img");
 image.src = 'images/' + foods[counter];
 image.setAttribute("id", "currentImage");
 var div = document.getElementById('imageLocation');
 div.appendChild(image);
-
-
+counter++;
 
 // iLiked function will move images to likedFoods array and bring up new image. 
 function iLike() {
@@ -24,9 +22,8 @@ function iLike() {
 	//var image = document.getElementById("currentImage");
 	image.src = 'images/' + foods[counter];
 
-	likedFoods[counter2] = foods[counter]; 
-	counter++;
-	counter2++;
+	likedFoods[likedFoods.length] = foods[counter-1]; 
+	counter ++;
 }
 
 // iNope will remove image and bring up new image.
