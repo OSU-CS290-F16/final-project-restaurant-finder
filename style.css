@@ -82,13 +82,13 @@ section .picture{
 
 section .likeButton{
   position: center;
-  bottom = 5px;
-  right = 5px;
+  bottom = 20px;
+  right = =20px;
 }
 section .dislikeButton{
   position: center;
-  bottom = 5px;
-  left = 5px;
+  bottom = 20px;
+  left = 20px;
 }
 
 .buttonsize{
