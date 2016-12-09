@@ -2,8 +2,17 @@
     {"fileName":"BaguetteCurry.jpg", "Restaurant":"Baguette","Description":"Curry Sandwich"},
     {"fileName":"BaguetteSandwich.jpg", "Restaurant":"Baguette","Description":"Beef Sandwich"},
     {"fileName":"Block15Burger.jpg", "Restaurant":"Block 15","Description":"PB&J Burger"},
-    {"fileName":"Block15Fries.jpg","Restaurant":"Block 15","Description":"Fries"},
+    {"fileName":"Block15Fires.jpg","Restaurant":"Block 15","Description":"Fries"},
     {"fileName":"Block15FriedJalapeno.jpg","Restaurant":"Block 15","Description":"Fried Jalapenos"},
     {"fileName":"Block15MagicMushroom.jpg","Restaurant":"Block 15","Description":"Mushrooms with Cheese"},
     {"fileName":"DelAlmaAlmondCake.jpg","Restaurant":"Del Alma","Description":"Almond Cake"}
+    {"fileName":"DelAlmaHalibut.jpg","Restaurant":"Del Alma","Description":"Grilled Halibut with Vegetables"}
+    {"fileName":"DelAlmaPatatas.jpg","Restaurant":"Del Alma","Description":"Patatas Bravas"}
+    {"fileName":"DelAlmaRibs.jpg","Restaurant":"Del Alma","Description":"Baby Back Ribs"}
+    {"fileName":"DelAlmaStake.jpg","Restaurant":"Del Alma","Description":"8 oz. Filet Mignon"}
+    {"fileName":"DelAlmaTacos.jpg","Restaurant":"Del Alma","Description":"Jumbo Shrimp Tacos"}
+    {"fileName":"DelAlmaTresLeches.jpg","Restaurant":"Del Alma","Description":"Tres Leches Cake"}
+    {"fileName":"FrancescosGelatoIceCream.jpg","Restaurant":"Francescos Gelato","Description":"Blueberries and Pistachio Gelato"}
+    {"fileName":"LaughingPlanetCafeHarvest.jpg","Restaurant":"Laughing Planet","Description":"Harvest Bowl"}
+    {"fileName":"LaughingPlanetCafeSalad.jpg","Restaurant":"Laughing Planet","Description":"Salad with Chicken"}
 ]}
