@@ -12,8 +12,8 @@ body{
 
 
 header {
-	background-color: rgba(255,255,255,0.6);
-	background-size: 40%;
+  background-color: rgba(255,255,255,0.6);
+  background-size: 40%;
   border-width: 10px;
   position: center;
   text-align: center;
@@ -39,7 +39,7 @@ footer li{
 
 main{
   border-width: 10px;
-  position: center;
+  /*position: center;*/
   text-align: center;
 }
 
@@ -47,7 +47,6 @@ main{
 {
   background: white;
   display: inline-block;
-  float: center;
   margin: 0 15px 30px;
   padding: 10px 10px 60px;
   text-align: center;
@@ -62,12 +61,16 @@ main{
 }
 
 #currentImage{
-	max-height: 600px;
-	max-width: 600px;
+  width: inherit;
+  height: 500px;
+  /*max-height: 600px;
+  max-width: 600px;*/
+  background-size: cover;
+  background-position: 50% 50%;
 }
 #doneImage{
-	height: 300px;
-	width: 300px;
+  height: 300px;
+  width: 300px;
 }
 
 section .name{
@@ -82,13 +85,13 @@ section .picture{
 
 section .likeButton{
   position: center;
-  bottom = 20px;
-  right = =20px;
+  bottom = 5px;
+  right = 5px;
 }
 section .dislikeButton{
   position: center;
-  bottom = 20px;
-  left = 20px;
+  bottom = 5px;
+  left = 5px;
 }
 
 .buttonsize{
@@ -105,15 +108,15 @@ section .dislikeButton{
 }
 
 .rotate-left {
-	transform: rotate(30deg) scale(0.8);
-	transition: 1s;
-	cursor: e-resize;
-	opacity: 0;
+  transform: rotate(30deg) scale(0.8);
+  transition: 1s;
+  cursor: e-resize;
+  opacity: 0;
 }
 
 .rotate-right {
-	transform: rotate(-30deg) scale(0.8);
-	transition: 1s;
-	cursor: w-resize;
-	opacity: 0;
+  transform: rotate(-30deg) scale(0.8);
+  transition: 1s;
+  cursor: w-resize;
+  opacity: 0;
 }
