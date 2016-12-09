@@ -10,20 +10,16 @@ app.use(express.static(path.join(__dirname)));
 
 app.get('/data', function(req, res){
   content = mainSite;
-  
+
   Object.keys(data).forEach(function (restaurant) {
-    content += "<img src = " + data[restaurant].fileName + " id = doneImage>";
+    //console.log(data[restaurant].fileName);
 
-    var name = document.createElement('p');
-   	name.innerHTML = data[restaurant].Restaurant;
-    div.appendChild(name);
-
-    var description = document.createElement('p');
-   	description.innerHTML = data[restaurant].description;
-    div.appendChild(description);
+    content += "<img src = images/" + data[restaurant].fileName + " id = doneImage>";
+    content+= "<p> " + data[restaurant].Restaurant + "</p>";
+    content+= "<p> " + data[restaurant].Description + "</p>";
   });
-  
-  
+
+
   res.send(content);
 });
 
