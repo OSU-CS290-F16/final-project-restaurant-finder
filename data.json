@@ -39,12 +39,12 @@
     {"fileName":"DelAlmaStake.jpg","Restaurant":"Del Alma","Description":"8 oz. Filet Mignon"},
  "DelAlmaTacos":
     {"fileName":"DelAlmaTacos.jpg","Restaurant":"Del Alma","Description":"Jumbo Shrimp Tacos"},
- "DelAlmaTresLeches"
+ "DelAlmaTresLeches":
     {"fileName":"DelAlmaTresLeches.jpg","Restaurant":"Del Alma","Description":"Tres Leches Cake"},
- "FrancescosGelatoIceCream"
+ "FrancescosGelatoIceCream":
     {"fileName":"FrancescosGelatoIceCream.jpg","Restaurant":"Francescos Gelato","Description":"Blueberries and Pistachio Gelato"},
- "LaughingPlanetCafeHarvest"
+ "LaughingPlanetCafeHarvest":
     {"fileName":"LaughingPlanetCafeHarvest.jpg","Restaurant":"Laughing Planet","Description":"Harvest Bowl"},
- "LaughingPlanetCafeSalad"
+ "LaughingPlanetCafeSalad":
     {"fileName":"LaughingPlanetCafeSalad.jpg","Restaurant":"Laughing Planet","Description":"Salad with Chicken"},
 }
