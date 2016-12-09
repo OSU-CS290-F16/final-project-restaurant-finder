@@ -9,6 +9,9 @@ var likedFoods = [];
 // Food image counter.
 var counter = 0;
 
+	var buttonLike = document.getElementById('likeButton');
+ 	var buttonDislike = document.getElementById('dislikeButton');
+
 var image = document.createElement("img");
 image.src = 'images/' + foods[counter];
 image.setAttribute("id", "currentImage");
@@ -28,6 +31,8 @@ function iLike() {
 	if(counter > foods.length)
 	{
 		showFoods();
+		buttonLike.style.display = 'none';
+		buttonDislike.style.display = 'none';
 	}
 }
 
@@ -41,6 +46,8 @@ function iNope() {
 	if(counter > foods.length)
 	{
 		showFoods();
+		buttonLike.style.display = 'none';
+		buttonDislike.style.display = 'none';
 	}
 
 } // Will show the food images to be liked or passed. 
