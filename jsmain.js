@@ -48,10 +48,10 @@ function showFoods() {
 	console.log("showFoods");
 	var temp = document.getElementById('currentImage');
 	temp.parentNode.removeChild(temp);
-	var buttonLike = document.getElementById('likeButton');
-	var buttonDislike = document.getElementById('dislikeButton');
-	buttonLike.style.display = 'none';
-	buttonDislike.style.display = 'none';
+	//var buttonLike = document.getElementById('likeButton');
+	//var buttonDislike = document.getElementById('dislikeButton');
+	//buttonLike.style.display = 'none';
+	//buttonDislike.style.display = 'none';
 	for(i=0; i<likedFoods.length; i++) {
 		var image2 = document.createElement("img");
 		console.log("Image source = " + image2.src);
