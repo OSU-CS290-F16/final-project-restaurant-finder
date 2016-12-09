@@ -84,14 +84,18 @@ section .picture{
 }
 
 section .likeButton{
-  position: center;
-  bottom = 5px;
-  right = 5px;
+  display: inline-block;
+  position: absolute;
+  margin-left: -12%;
+  margin-top: 36%;
+  bottom = 0px;
 }
 section .dislikeButton{
-  position: center;
-  bottom = 5px;
-  left = 5px;
+  display: inline-block;
+  position: absolute;
+  margin-left: 9%;
+  margin-top: 36%;
+  bottom = 0px;
 }
 
 .buttonsize{
