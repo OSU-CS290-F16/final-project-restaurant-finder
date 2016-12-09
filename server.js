@@ -12,8 +12,6 @@ app.get('/data', function(req, res){
   content = mainSite;
 
   Object.keys(data).forEach(function (restaurant) {
-    //console.log(data[restaurant].fileName);
-
     content += "<img src = images/" + data[restaurant].fileName + " id = doneImage>";
     content+= "<p> " + data[restaurant].Restaurant + "</p>";
     content+= "<p> " + data[restaurant].Description + "</p>";
@@ -21,6 +19,44 @@ app.get('/data', function(req, res){
 
 
   res.send(content);
+});
+
+// app.get('/data/:restaurant', function(req, res){
+//   var restaurant = data[req.params.restaurant];
+//   content = mainSite;
+//   //  content += "<img src = images/" + data[restaurant].fileName + " id = doneImage>";
+//   //  content+= "<p> " + data[restaurant].Restaurant + "</p>";
+//   //  content+= "<p> " + data[restaurant].Description + "</p>";
+//
+//   res.send(content);
+// });
+app.get('/data/:restaurant', function (req, res, next) {
+  var restaurant = data[req.params.restaurant];
+  if (restaurant) {
+    var content = "<html>";
+    content += "<head>";
+    content += "<meta charset='utf-8'>";
+    content += "<title>Food finder</title>";
+    content += "<link rel='stylesheet' href='/style.css'>";
+    content += "</head>";
+    content += "<body>";
+
+    /*
+     * Use regular expressions to replace our template patterns with the
+     * actual info associated with the given person.
+     */
+    content += "<img src = images/" + restaurant.fileName + " id = doneImage>";
+    content += "<p> " + restaurant.Restaurant + "</p>";
+    content += "<p> " + restaurant.Description + "</p>";
+
+    content += "</body>";
+    content += "</html>";
+
+    res.send(content);
+  } else {
+    // If we don't have info for the requested person, fall through to a 404.
+    next();
+  }
 });
 
 app.get('*', function(req, res) {
