@@ -1,18 +1,50 @@
-{"images":[
-    {"fileName":"BaguetteCurry.jpg", "Restaurant":"Baguette","Description":"Curry Sandwich"},
-    {"fileName":"BaguetteSandwich.jpg", "Restaurant":"Baguette","Description":"Beef Sandwich"},
-    {"fileName":"Block15Burger.jpg", "Restaurant":"Block 15","Description":"PB&J Burger"},
-    {"fileName":"Block15Fires.jpg","Restaurant":"Block 15","Description":"Fries"},
-    {"fileName":"Block15FriedJalapeno.jpg","Restaurant":"Block 15","Description":"Fried Jalapenos"},
-    {"fileName":"Block15MagicMushroom.jpg","Restaurant":"Block 15","Description":"Mushrooms with Cheese"},
-    {"fileName":"DelAlmaAlmondCake.jpg","Restaurant":"Del Alma","Description":"Almond Cake"}
-    {"fileName":"DelAlmaHalibut.jpg","Restaurant":"Del Alma","Description":"Grilled Halibut with Vegetables"}
+{
+"BaguetteCurry":
+    {"fileName":"BaguetteCurry.jpg", 
+     "Restaurant":"Baguette",
+     "Description":"Curry Sandwich"},
+"BaguetteSandwich":
+    {"fileName":"BaguetteSandwich.jpg", 
+     "Restaurant":"Baguette",
+     "Description":"Beef Sandwich"},
+ "Block15Burger":
+    {"fileName":"Block15Burger.jpg", 
+     "Restaurant":"Block 15",
+     "Description":"PB&J Burger"},
+ "Block15Fires":
+    {"fileName":"Block15Fires.jpg",
+     "Restaurant":"Block 15",
+     "Description":"Fries"},
+ "Block15FriedJalapeno":
+    {"fileName":"Block15FriedJalapeno.jpg",
+     "Restaurant":"Block 15",
+     "Description":"Fried Jalapenos"},
+ "Block15MagicMushroom":
+    {"fileName":"Block15MagicMushroom.jpg",
+     "Restaurant":"Block 15",
+     "Description":"Mushrooms with Cheese"},
+ "DelAlmaAlmondCake":
+    {"fileName":"DelAlmaAlmondCake.jpg",
+     "Restaurant":"Del Alma",
+     "Description":"Almond Cake"}
+ "DelAlmaHalibut":
+    {"fileName":"DelAlmaHalibut.jpg",
+     "Restaurant":"Del Alma",
+     "Description":"Grilled Halibut with Vegetables"}
+ "DelAlmaPatatas":
     {"fileName":"DelAlmaPatatas.jpg","Restaurant":"Del Alma","Description":"Patatas Bravas"}
+ "DelAlmaRibs":
     {"fileName":"DelAlmaRibs.jpg","Restaurant":"Del Alma","Description":"Baby Back Ribs"}
+ "DelAlmaStake":
     {"fileName":"DelAlmaStake.jpg","Restaurant":"Del Alma","Description":"8 oz. Filet Mignon"}
+ "DelAlmaTacos"
     {"fileName":"DelAlmaTacos.jpg","Restaurant":"Del Alma","Description":"Jumbo Shrimp Tacos"}
+ "DelAlmaTresLeches"
     {"fileName":"DelAlmaTresLeches.jpg","Restaurant":"Del Alma","Description":"Tres Leches Cake"}
+ "FrancescosGelatoIceCream"
     {"fileName":"FrancescosGelatoIceCream.jpg","Restaurant":"Francescos Gelato","Description":"Blueberries and Pistachio Gelato"}
+ "LaughingPlanetCafeHarvest"
     {"fileName":"LaughingPlanetCafeHarvest.jpg","Restaurant":"Laughing Planet","Description":"Harvest Bowl"}
+ "LaughingPlanetCafeSalad"
     {"fileName":"LaughingPlanetCafeSalad.jpg","Restaurant":"Laughing Planet","Description":"Salad with Chicken"}
-]}
+}
