@@ -31,8 +31,6 @@ function iLike() {
 	if(counter > foods.length)
 	{
 		showFoods();
-		buttonLike.style.display = 'none';
-		buttonDislike.style.display = 'none';
 	}
 }
 
@@ -46,14 +44,16 @@ function iNope() {
 	if(counter > foods.length)
 	{
 		showFoods();
-		buttonLike.style.display = 'none';
-		buttonDislike.style.display = 'none';
 	}
 
 } // Will show the food images to be liked or passed. 
 function showFoods() {
 	console.log("showFoods");
 	var temp = document.getElementById('currentImage');
+
+	buttonLike.style.display = 'none';
+	buttonDislike.style.display = 'none';
+
 	temp.parentNode.removeChild(temp);
 	for(i=0; i<likedFoods.length; i++) {
 		var image2 = document.createElement("img");
