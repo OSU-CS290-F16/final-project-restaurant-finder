@@ -13,8 +13,8 @@ app.get('/data', function(req, res){
 
   Object.keys(data).forEach(function (restaurant) {
     content += "<img src = images/" + data[restaurant].fileName + " id = doneImage>";
-    content+= "<p> " + data[restaurant].Restaurant + "</p>";
-    content+= "<p> " + data[restaurant].Description + "</p>";
+    content += "<p> " + data[restaurant].Restaurant + "</p>";
+    content += "<p> " + data[restaurant].Description + "</p>";
   });
 
 
@@ -40,15 +40,19 @@ app.get('/data/:restaurant', function (req, res, next) {
     content += "<link rel='stylesheet' href='/style.css'>";
     content += "</head>";
     content += "<body>";
+    content += "<header>"
+    content += "<h1>" + restaurant.Restaurant +"</h1>"
+    content += "</header>"
+    content += "<main>"
 
     /*
      * Use regular expressions to replace our template patterns with the
      * actual info associated with the given person.
      */
-    content += "<img src = images/" + restaurant.fileName + " id = doneImage>";
-    content += "<p> " + restaurant.Restaurant + "</p>";
+    content += "<img src = ../images/" + restaurant.fileName + " id = doneImage>";
     content += "<p> " + restaurant.Description + "</p>";
 
+    content += "</main>"
     content += "</body>";
     content += "</html>";
 
