@@ -37,7 +37,7 @@
     {"fileName":"DelAlmaRibs.jpg","Restaurant":"Del Alma","Description":"Baby Back Ribs"},
  "DelAlmaStake":
     {"fileName":"DelAlmaStake.jpg","Restaurant":"Del Alma","Description":"8 oz. Filet Mignon"},
- "DelAlmaTacos"
+ "DelAlmaTacos":
     {"fileName":"DelAlmaTacos.jpg","Restaurant":"Del Alma","Description":"Jumbo Shrimp Tacos"},
  "DelAlmaTresLeches"
     {"fileName":"DelAlmaTresLeches.jpg","Restaurant":"Del Alma","Description":"Tres Leches Cake"},
