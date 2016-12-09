@@ -46,5 +46,24 @@
  "LaughingPlanetCafeHarvest":
     {"fileName":"LaughingPlanetCafeHarvest.jpg","Restaurant":"Laughing Planet","Description":"Harvest Bowl"},
  "LaughingPlanetCafeSalad":
-    {"fileName":"LaughingPlanetCafeSalad.jpg","Restaurant":"Laughing Planet","Description":"Salad with Chicken"}
+    {"fileName":"LaughingPlanetCafeSalad.jpg","Restaurant":"Laughing Planet","Description":"Salad with Chicken"},
+ "NataliaCristoforosSandwich":
+    {"fileName":"NataliaCristoforosSandwich.jpg","Restaurant":"Natalia","Description":"Delicious sandwich"},
+ "NearlyNormalsBurrito":
+    {"fileName":"NearlyNormalsBurrito.jpg","Restaurant":"Nearly Normals","Description":"Burrito you wouldn't wanna miss!"},
+ "NearlyNormalsNachos":
+    {"fileName":"NearlyNormalsNachos.jpg","Restaurant":"Nearly Normals","Description":"Filled with cheesy goodness"},
+  "NearlyNormalsSalad":
+    {"fileName":"NearlyNormalsSalad.jpg", "Restaurant":"Nearly Normals","Description":"Healthy goodness"},
+  "NearlyNormalsSpaghetti":
+    {"fileName":"NearlyNormalsSpaghetti.jpg","Restaurant":"Nearly Normals","Description":"Just like mom made it"},
+  "NearlyNormalsTacos":
+    {"fileName":"NearlyNormalsTacos.jpg","Restaurant":"Nearly Normals","Description":"These should ring a Bell"},
+  "NearlyNormalsTostada":
+    {"fileName":"NearlyNormalsTostada.jpg","Restaurant":"Nearly Normals","Description":"Like a toasted taco"},
+  "RoxyDawgsFries":
+    {"fileName":"RoxyDawgsFries.jpg","Restaurant":"Roxy Dawgs","Description":"Served on a stick"},
+  "RoxyDawgsHotDog":
+    {"fileName":"RoxyDawgsHotDog.jpg", "Restaurant":"Roxy Dawgs", "Description":"Only the best hot dogs in town"}
+ 
 }
