@@ -7,7 +7,7 @@ var port = process.env.PORT || 3000;
 var mainSite = fs.readFileSync(path.join(__dirname, 'index.html'), 'utf8');
 app.use(express.static(path.join(__dirname)));
 
-app.get('/data', function(req, res){
+app.get('/data.json', function(req, res){
   content = mainSite;
   
   Object.keys(data).forEach(function (restaurant) {
