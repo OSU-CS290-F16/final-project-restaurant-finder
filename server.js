@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname)));
 
 app.get('/data', function(req, res){
   content = mainSite;
-  /*
+  
   Object.keys(data).forEach(function (restaurant) {
     content += "<img src = " + data[restaurant].fileName + " id = doneImage>";
 
@@ -22,7 +22,7 @@ app.get('/data', function(req, res){
    	description.innerHTML = data[restaurant].description;
     div.appendChild(description);
   });
-  */
+  
   
   res.send(content);
 });
