@@ -23,7 +23,12 @@ function iLike() {
 	image.src = 'images/' + foods[counter];
 
 	likedFoods[likedFoods.length] = foods[counter-1]; 
-	counter ++;
+	counter++;
+
+	if(counter > foods.length)
+	{
+		showFoods();
+	}
 }
 
 // iNope will remove image and bring up new image.
@@ -32,6 +37,11 @@ function iNope() {
 	//var image = document.getElementById("currentImage");
 	image.src = 'images/' + foods[counter];
 	counter++;
+
+	if(counter > foods.length)
+	{
+		showFoods();
+	}
 
 } // Will show the food images to be liked or passed. 
 function showFoods() {
