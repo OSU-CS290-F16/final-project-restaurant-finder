@@ -12,6 +12,19 @@ var counter = 0;
 	var buttonLike = document.getElementById('likeButton');
  	var buttonDislike = document.getElementById('dislikeButton');
 
+ function shuffleArray(array) {									//Durstenfeld shuffle 
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+    return array;
+}
+
+
+shuffleArray(foods);
+
 var image = document.createElement("img");
 image.src = 'images/' + foods[counter];
 image.setAttribute("id", "currentImage");
