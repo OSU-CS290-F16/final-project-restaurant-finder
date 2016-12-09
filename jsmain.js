@@ -1,4 +1,5 @@
 // Neutral food images array (neither liked or passed).
+//var jsonfile = require('jsonfile');
 var foods = new Array("BaguetteCurry.jpg", "BaguetteSandwich.jpg", "Block15Burger.jpg", "Block15Fires.jpg", "Block15FriedJalapeno.jpg", "Block15MagicMushroom.jpg", "DelAlmaAlmondCake.jpg", "DelAlmaHalibut.jpg", "DelAlmaPatatas.jpg", "DelAlmaRibs.jpg",
  "DelAlmaStake.jpg", "DelAlmaTacos.jpg", "DelAlmaTresLeches.jpg", "FrancescosGelatoIceCream.jpg", "LaughingPlanetCafeHarvest.jpg", "LaughingPlanetCafeSalad.jpg", "NataliaCristoforosSandwich.jpg", "NearlyNormalsBurrito.jpg", "NearlyNormalsNachos.jpg", "NearlyNormalsSalad.jpg", "NearlyNormalsSpaghetti.jpg",
   "NearlyNormalsTacos.jpg", "NearlyNormalsTostada.jpg", "RoxyDawgsFries.jpg", "RoxyDawgsHotDog.jpg");
@@ -12,7 +13,7 @@ var counter = 0;
 	var buttonLike = document.getElementById('likeButton');
  	var buttonDislike = document.getElementById('dislikeButton');
 
- function shuffleArray(array) {									//Durstenfeld shuffle 
+ function shuffleArray(array) {									//Durstenfeld shuffle
     for (var i = array.length - 1; i > 0; i--) {
         var j = Math.floor(Math.random() * (i + 1));
         var temp = array[i];
@@ -32,14 +33,17 @@ var div = document.getElementById('imageLocation');
 div.appendChild(image);
 counter++;
 
-// iLiked function will move images to likedFoods array and bring up new image. 
+// iLiked function will move images to likedFoods array and bring up new image.
 function iLike() {
-	console.log("ilike");	
+	console.log("ilike");
 //	var image = document.getElementById("currentImage");
 	image.src = 'images/' + foods[counter];
 
-	likedFoods[likedFoods.length] = foods[counter-1]; 
+	likedFoods[likedFoods.length] = foods[counter-1];
 	counter++;
+  // var file = "/data.json";
+  // var obj = foods[counter-1].substring(0, likedFoods[i].length - 4);
+  // jsonfile.writeFile(file, obj, {like: 1});
 
 	if(counter > foods.length)
 	{
@@ -59,7 +63,7 @@ function iNope() {
 		showFoods();
 	}
 
-} // Will show the food images to be liked or passed. 
+} // Will show the food images to be liked or passed.
 function showFoods() {
 	console.log("showFoods");
 	var temp = document.getElementById('currentImage');
@@ -75,11 +79,12 @@ function showFoods() {
 		image2.setAttribute("id", "doneImage");
 		var div = document.getElementById('imageLocation');
 		div.appendChild(image2);
-		var description = document.createElement('p');
-   		description.innerHTML = likedFoods[i].substring(0, likedFoods[i].length - 4);
-    		div.appendChild(description);
-		//TODO add descriptions for each picture 
-	} // end for 
+		var description = document.createElement('a');
+   	description.innerHTML = likedFoods[i].substring(0, likedFoods[i].length - 4);
+    description.href = '/data/' + likedFoods[i].substring(0, likedFoods[i].length - 4);
+    div.appendChild(description);
+
+	} // end for
 } // End showFoods function.
 
 // Listener for mouse click on like button.
@@ -93,4 +98,3 @@ userDislike.addEventListener('click', iNope);
 // Listener for mouse click on done button.
 var userDone = document.getElementById('doneButton');
 userDone.addEventListener('click', showFoods);
-
