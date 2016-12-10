@@ -1,4 +1,7 @@
 # finalprojectcs2902016
+
+Grillr
+
 Main page features a like and dislike button for each image. Like what looks good.
 
 Press done when you are finished liking foods, which brings you to a list of all the images that you liked. 
