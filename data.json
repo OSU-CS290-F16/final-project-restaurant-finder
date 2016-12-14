@@ -32,38 +32,71 @@
      "Restaurant":"Del Alma",
      "Description":"Grilled Halibut with Vegetables"},
  "DelAlmaPatatas":
-    {"fileName":"DelAlmaPatatas.jpg","Restaurant":"Del Alma","Description":"Patatas Bravas"},
+    {"fileName":"DelAlmaPatatas.jpg",
+     "Restaurant":"Del Alma",
+     "Description":"Patatas Bravas"},
  "DelAlmaRibs":
-    {"fileName":"DelAlmaRibs.jpg","Restaurant":"Del Alma","Description":"Baby Back Ribs"},
+    {"fileName":"DelAlmaRibs.jpg",
+     "Restaurant":"Del Alma",
+     "Description":"Baby Back Ribs"},
  "DelAlmaStake":
-    {"fileName":"DelAlmaStake.jpg","Restaurant":"Del Alma","Description":"8 oz. Filet Mignon"},
+    {"fileName":"DelAlmaStake.jpg",
+     "Restaurant":"Del Alma",
+     "Description":"8 oz. Filet Mignon"},
  "DelAlmaTacos":
-    {"fileName":"DelAlmaTacos.jpg","Restaurant":"Del Alma","Description":"Jumbo Shrimp Tacos"},
+    {"fileName":"DelAlmaTacos.jpg",
+     "Restaurant":"Del Alma",
+     "Description":"Jumbo Shrimp Tacos"},
  "DelAlmaTresLeches":
-    {"fileName":"DelAlmaTresLeches.jpg","Restaurant":"Del Alma","Description":"Tres Leches Cake"},
+    {"fileName":"DelAlmaTresLeches.jpg",
+     "Restaurant":"Del Alma",
+     "Description":"Tres Leches Cake"},
  "FrancescosGelatoIceCream":
-    {"fileName":"FrancescosGelatoIceCream.jpg","Restaurant":"Francescos Gelato","Description":"Blueberries and Pistachio Gelato"},
+    {"fileName":"FrancescosGelatoIceCream.jpg",
+     "Restaurant":"Francescos Gelato",
+     "Description":"Blueberries and Pistachio Gelato"},
  "LaughingPlanetCafeHarvest":
-    {"fileName":"LaughingPlanetCafeHarvest.jpg","Restaurant":"Laughing Planet","Description":"Harvest Bowl"},
+    {"fileName":"LaughingPlanetCafeHarvest.jpg",
+     "Restaurant":"Laughing Planet",
+     "Description":"Harvest Bowl"},
  "LaughingPlanetCafeSalad":
-    {"fileName":"LaughingPlanetCafeSalad.jpg","Restaurant":"Laughing Planet","Description":"Salad with Chicken"},
+    {"fileName":"LaughingPlanetCafeSalad.jpg",
+     "Restaurant":"Laughing Planet",
+     "Description":"Salad with Chicken"},
  "NataliaCristoforosSandwich":
-    {"fileName":"NataliaCristoforosSandwich.jpg","Restaurant":"Natalia","Description":"Delicious sandwich"},
+    {"fileName":"NataliaCristoforosSandwich.jpg",
+     "Restaurant":"Natalia",
+     "Description":"Delicious sandwich"},
  "NearlyNormalsBurrito":
-    {"fileName":"NearlyNormalsBurrito.jpg","Restaurant":"Nearly Normals","Description":"Burrito you wouldn't wanna miss!"},
+    {"fileName":"NearlyNormalsBurrito.jpg",
+     "Restaurant":"Nearly Normals",
+     "Description":"Burrito you wouldn't wanna miss!"},
  "NearlyNormalsNachos":
-    {"fileName":"NearlyNormalsNachos.jpg","Restaurant":"Nearly Normals","Description":"Filled with cheesy goodness"},
+    {"fileName":"NearlyNormalsNachos.jpg",
+     "Restaurant":"Nearly Normals",
+     "Description":"Filled with cheesy goodness"},
   "NearlyNormalsSalad":
-    {"fileName":"NearlyNormalsSalad.jpg", "Restaurant":"Nearly Normals","Description":"Healthy goodness"},
+    {"fileName":"NearlyNormalsSalad.jpg", 
+     "Restaurant":"Nearly Normals",
+     "Description":"Healthy goodness"},
   "NearlyNormalsSpaghetti":
-    {"fileName":"NearlyNormalsSpaghetti.jpg","Restaurant":"Nearly Normals","Description":"Just like mom made it"},
+    {"fileName":"NearlyNormalsSpaghetti.jpg",
+     "Restaurant":"Nearly Normals",
+     "Description":"Just like mom made it"},
   "NearlyNormalsTacos":
-    {"fileName":"NearlyNormalsTacos.jpg","Restaurant":"Nearly Normals","Description":"These should ring a Bell"},
+    {"fileName":"NearlyNormalsTacos.jpg",
+     "Restaurant":"Nearly Normals",
+     "Description":"These should ring a Bell"},
   "NearlyNormalsTostada":
-    {"fileName":"NearlyNormalsTostada.jpg","Restaurant":"Nearly Normals","Description":"Like a toasted taco"},
+    {"fileName":"NearlyNormalsTostada.jpg",
+     "Restaurant":"Nearly Normals",
+     "Description":"Like a toasted taco"},
   "RoxyDawgsFries":
-    {"fileName":"RoxyDawgsFries.jpg","Restaurant":"Roxy Dawgs","Description":"Served on a stick"},
+    {"fileName":"RoxyDawgsFries.jpg",
+     "Restaurant":"Roxy Dawgs",
+     "Description":"Served on a stick"},
   "RoxyDawgsHotDog":
-    {"fileName":"RoxyDawgsHotDog.jpg", "Restaurant":"Roxy Dawgs", "Description":"Only the best hot dogs in town"}
- 
+    {"fileName":"RoxyDawgsHotDog.jpg",
+     "Restaurant":"Roxy Dawgs",
+     "Description":"Only the best hot dogs in town"}
 }
